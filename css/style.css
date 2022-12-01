@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(233, 233, 233);
+}
+
+table {
+  border-collapse: collapse;
+  border: black 1px solid;
+  margin-bottom: 10px;
+  background-color: white;
+}
+tr {
+  /* border: 1px;
+  border-style: solid; */
+  /* border-color: black; */
+  height: 80px;
+}
+td {
+  border-collapse: collapse;
+  border: black 1px solid;
+  width: 80px;
+  height: 80px;
+  /* background-color: cyan; */
+}
+
+input {
+  margin: 0 5px;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 15px;
+  border-radius: 10px;
+}
+input:hover {
+  cursor: pointer;
+}
+
+div {
+  width: 600px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  /* background-color: #C8C8C8; */
+}
+
+#btn1 {
+  border: 2px solid #87c19b;
+  color: #87c19b;
+  font-weight: bold;
+}
+
+#btn2 {  
+  border: 2px solid #f0b66b;
+  color: #f0b66b;
+  font-weight: bold;
+}
+#btn3 {  
+  border: 2px solid #c63637;
+  color: #c63637;
+  font-weight: bold;
+}
+
+.T {
+  background-color: rgb(230, 156, 59, 0.4);
+}
+
+/* ======================== MODAL ====================== */
+
+#modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(233, 233, 233, 0.9);
+  border: none;
+  /* color: #fff; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+.panelModal {
+  width: 50vw;
+  height: 50vh;
+  border: none;
+  background-color: #77aed3d3;
+}
